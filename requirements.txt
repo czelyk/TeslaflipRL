@@ -1,0 +1,9 @@
+# Windows: the compiled PyBullet package is installed by environment.yml.
+pybullet==3.2.7; sys_platform != 'win32'
+gymnasium>=1.0,<2
+stable-baselines3>=2.4,<3
+numpy>=1.26,<3
+matplotlib>=3.8,<4
+PySide6-Essentials==6.8.3; sys_platform == "win32"
+torch>=2.4,<3
+pytest>=8,<10

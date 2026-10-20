@@ -1,0 +1,9 @@
+name: teslafliprl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pybullet=3.25
+  - pip
+  - pip:
+      - -r requirements.txt
